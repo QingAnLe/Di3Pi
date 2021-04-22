@@ -1,4 +1,4 @@
-name: 书旗小说一次性的
+name: 第三批书旗小说
 on:
   workflow_dispatch:
   schedule:
