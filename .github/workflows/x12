@@ -1,4 +1,4 @@
-name: 第三批书旗小说
+name: x12
 on:
   workflow_dispatch:
   schedule:
@@ -24,7 +24,7 @@ jobs:
       - name: '【书旗小说】'
         run: |
           cd ~/js   
-          node Task/shuqi.js
+          node Task/虚拟12.js
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
