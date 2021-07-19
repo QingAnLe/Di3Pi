@@ -2,7 +2,7 @@ name: x12
 on:
   workflow_dispatch:
   schedule:
-     - cron: '50 */1 * * *'
+     - cron: '5 */1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest       
